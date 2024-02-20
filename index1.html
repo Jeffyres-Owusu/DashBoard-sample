@@ -108,7 +108,6 @@
                 fill="#0908"
               />
             </svg>
-
             <a href="#" class="text-sm font-bold text-green-400 pt-2">Home</a>
           </div>
           <div class="flex group ml-2 gap-1">
@@ -124,7 +123,7 @@
               ></path>
             </svg>
             <a
-              href="index1.html"
+              href="#"
               class="text-sm font-bold text-gray-600 group-hover:text-green-400 pt-2"
               >Feed</a
             >
@@ -206,7 +205,7 @@
         </div>
 
         <div
-          class="hidden lg:block lg:mt-36 ml-4 lg:flex rounded-sm bg-gray-300 gap-2 w-44 h-16 mb-2 pt-3"
+          class="hidden lg:block mt-36 ml-4 lg:flex rounded-sm bg-gray-300 gap-2 w-44 h-16 mb-2 pt-3"
         >
           <!-- insect img -->
           <img
@@ -214,13 +213,13 @@
             alt=""
             class="w-8 h-8 rounded-lg mt-2 ml-2"
           />
-          <div class="flex-row gap-2 h-full">
+          <div class="flex-row gap-2">
             <p class="font-bold text-sm pt-1">Floyd Miles</p>
             <p class="text-xs">@floydmilmes</p>
           </div>
         </div>
       </div>
-      <div class="flex-1 lg:pb-96 flex-row gap-4 h-full">
+      <div class="flex-1 flex-row gap-4 h-full rounded-lg">
         <div
           class="flex mt-8 relative border px-8 mx-44 bg-white rounded-2xl lg:relative lg:border lg:flex lg:gap-60 lg:bg-white lg:pl-10 lg:mt-2 lg:py-2 lg:ml-36 lg:text-sm lg:w-3/4 lg:rounded-3xl lg:mx-0 lg:px-0"
         >
@@ -246,23 +245,6 @@
               class="border-none outline-none pl-2 rounded-2xl"
             />
           </div>
-          <!-- doing nothing technically remove -->
-          <div class="lg:hidden sm:block">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth="{1.5}"
-              stroke="currentColor"
-              className="w-6 h-6"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M12 6.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5ZM12 12.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5ZM12 18.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5Z"
-              />
-            </svg>
-          </div>
           <div class="hidden lg:block">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -281,67 +263,101 @@
         </div>
 
         <div class="ml-8 lg:ml-0">
-          <p
-            class="text-gray-500 text-lg font-sans underline decoration-blue-500 decoration-2 mt-2"
-          >
-            Good Evening&nbsp;
-          </p>
+          <p class="text-gray-600 text-lg font-sans mt-2">Good Evening</p>
           <p class="text-2xl mb-5">Theresa</p>
         </div>
-
         <div
-          class="mx-8 lg:mx-0 flex gap-20 lg:gap-40 border bg-white py-3 mx-1 rounded-xl pr-2 pl-4"
+          class="ml-8 lg:ml-0 border bg-white py-3 mx-1 rounded-xl pl-10 lg:pl-4 w-11/12 lg:w-full"
         >
-          <div class="ml-1">
-            <p class="font-bold text-gray-700">Welcome</p>
-            <p class="text-gray-500 text-sm">
-              Hello Theresa, welcome to HelpApp. Proceed to <br />verify your
-              email.
-            </p>
-          </div>
-          <div>
-            <button
-              class="text-white text-sm bg-green-700 border rounded-lg px-6 py-2 mt-4"
-            >
-              Verify Email
-            </button>
+          <p class="mb-2 text-sm font-bold">Request Details</p>
+          <p class="text-gray-500">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sere
+            ipssm<br />
+            Laboriosam, corporis itaque? Magnam voluptate dolores voluptas<br />
+            quam elit, maiores nostrum distinctio ipsam harum, est
+            exercitationem<br />
+            quain consqurrum
+          </p>
+          <div class="flex gap-80 lg:justify-between">
+            <div class="flex mt-4">
+              <svg
+                width="28"
+                height="28"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.8"
+                  class="stroke-green-500 w-4 h-4"
+                >
+                  <path d="M3 13c3.6-8 14.4-8 18 0" />
+                  <path d="M12 17a3 3 0 1 1 0-6a3 3 0 0 1 0 6" />
+                </g>
+              </svg>
+              <p class="text-green-500 pl-4">234</p>
+            </div>
+            <div>
+              <p class="mt-4 pr-4 text-gray-800">60% Resolved</p>
+            </div>
           </div>
         </div>
 
-        <div
-          class="flex mx-8 lg:mx-0 gap-20 lg:gap-40 border bg-white py-3 mx-1 rounded-xl pl-4 pr-2 mt-4"
-        >
-          <div class="ml-1">
-            <p class="font-bold text-gray-700">Verify Phone Number</p>
-            <p class="text-gray-500 text-sm">
-              Hello Theresa, welcome to HelpApp. Proceed to <br />verify your
-              email.
+        <div class="ml-8 lg:ml-0">
+          <div>
+            <p class="py-6 text-gray-600 font-bold">Post History</p>
+          </div>
+
+          <div class="flex gap-4">
+            <img
+              src="https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/58.png"
+              alt=""
+              class="w-10 h-10 mt-1 rounded-md"
+            />
+            <p class="">
+              John Belion Lorem ipsum, dolor sit amet consectetur
+              <br />adipisicing elit. Fuga sequi vero porro laboriosam error.
             </p>
           </div>
-          <div>
-            <button
-              class="text-white text-sm bg-green-700 border rounded-lg px-5 py-2 mt-3"
-            >
-              Verify Phone
-            </button>
+          <div class="flex justify-start gap-6 pt-4 text-gray-500 mb-4">
+            <p class="ml-14 text-green-800">2mins</p>
+            <p class="text-green-800">10likes</p>
+            <p class="text-green-800">2 Reply</p>
           </div>
-        </div>
-        <div
-          class="flex mx-8 lg:mx-0 gap-16 lg:gap-36 border bg-white py-3 mx-1 rounded-xl pl-4 pr-2 mt-4"
-        >
-          <div class="ml-1">
-            <p class="font-bold text-gray-700">Complete Profile</p>
-            <p class="text-gray-700 text-sm">
-              Please proceed to complete your profile to start <br />
-              receiving help.
+          <div class="flex gap-4">
+            <img
+              src="https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/58.png"
+              alt=""
+              class="w-10 h-10 mt-1 rounded-md"
+            />
+            <p class="">
+              John Belion Lorem ipsum, dolor sit amet consectetur
+              <br />adipisicing elit. Fuga sequi vero porro laboriosam error.
             </p>
           </div>
-          <div>
-            <button
-              class="text-white text-sm bg-blue-500 border rounded-lg px-4 py-2 mt-4"
-            >
-              Complete profile
-            </button>
+          <div class="flex justify-start gap-6 pt-4 text-gray-500 mb-4">
+            <p class="ml-14 text-green-800">2mins</p>
+            <p class="text-green-800">10likes</p>
+            <p class="text-green-800">2 Reply</p>
+          </div>
+          <div class="flex gap-4">
+            <img
+              src="https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/58.png"
+              alt=""
+              class="w-10 h-10 mt-1 rounded-md"
+            />
+            <p class="">
+              John Belion Lorem ipsum, dolor sit amet consectetur
+              <br />adipisicing elit. Fuga sequi vero porro laboriosam error.
+            </p>
+          </div>
+          <div class="flex justify-start gap-6 pt-4 text-gray-500 mb-6">
+            <p class="ml-14 text-green-800">2mins</p>
+            <p class="text-green-800">10likes</p>
+            <p class="text-green-800">2 Reply</p>
           </div>
         </div>
       </div>
@@ -517,7 +533,7 @@
               width="30"
               height="30"
               viewBox="0 0 30 30"
-              class="ml-8 mt-2 border rounded-lg bg-gray-300 p-2"
+              class="ml-8 mt-2 rounded-lg border bg-gray-300 p-2"
             >
               <path
                 d="M 7 4 C 6.744125 4 6.4879687 4.0974687 6.2929688 4.2929688 L 4.2929688 6.2929688 C 3.9019687 6.6839688 3.9019687 7.3170313 4.2929688 7.7070312 L 11.585938 15 L 4.2929688 22.292969 C 3.9019687 22.683969 3.9019687 23.317031 4.2929688 23.707031 L 6.2929688 25.707031 C 6.6839688 26.098031 7.3170313 26.098031 7.7070312 25.707031 L 15 18.414062 L 22.292969 25.707031 C 22.682969 26.098031 23.317031 26.098031 23.707031 25.707031 L 25.707031 23.707031 C 26.098031 23.316031 26.098031 22.682969 25.707031 22.292969 L 18.414062 15 L 25.707031 7.7070312 C 26.098031 7.3170312 26.098031 6.6829688 25.707031 6.2929688 L 23.707031 4.2929688 C 23.316031 3.9019687 22.682969 3.9019687 22.292969 4.2929688 L 15 11.585938 L 7.7070312 4.2929688 C 7.5115312 4.0974687 7.255875 4 7 4 z"
@@ -525,7 +541,7 @@
             </svg>
           </div>
         </div>
-        <div class="flex gap-7 pt-4 pb-24">
+        <div class="flex gap-7 pt-4 lg:pb-24">
           <div>
             <img
               src="https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/55.png"
@@ -538,7 +554,7 @@
           </div>
           <div>
             <button
-              class="bg-green-700 text-sm py-1 px-6 mt-2 text-white rounded-2xl ml-16"
+              class="bg-green-700 text-sm py-1 px-6 mt-2 text-white rounded-2xl ml-14"
             >
               Follow
             </button>
@@ -551,7 +567,7 @@
               width="30"
               height="30"
               viewBox="0 0 30 30"
-              class="ml-7 mt-2 border rounded-lg bg-gray-300 p-2"
+              class="ml-8 mt-2 rounded-lg border bg-gray-300 p-2"
             >
               <path
                 d="M 7 4 C 6.744125 4 6.4879687 4.0974687 6.2929688 4.2929688 L 4.2929688 6.2929688 C 3.9019687 6.6839688 3.9019687 7.3170313 4.2929688 7.7070312 L 11.585938 15 L 4.2929688 22.292969 C 3.9019687 22.683969 3.9019687 23.317031 4.2929688 23.707031 L 6.2929688 25.707031 C 6.6839688 26.098031 7.3170313 26.098031 7.7070312 25.707031 L 15 18.414062 L 22.292969 25.707031 C 22.682969 26.098031 23.317031 26.098031 23.707031 25.707031 L 25.707031 23.707031 C 26.098031 23.316031 26.098031 22.682969 25.707031 22.292969 L 18.414062 15 L 25.707031 7.7070312 C 26.098031 7.3170312 26.098031 6.6829688 25.707031 6.2929688 L 23.707031 4.2929688 C 23.316031 3.9019687 22.682969 3.9019687 22.292969 4.2929688 L 15 11.585938 L 7.7070312 4.2929688 C 7.5115312 4.0974687 7.255875 4 7 4 z"
